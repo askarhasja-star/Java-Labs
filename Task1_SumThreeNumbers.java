@@ -1,0 +1,14 @@
+public class Task1_SumThreeNumbers {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int c = 15;
+
+        int sum = a + b + c;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
+        System.out.println("Сумма = " + sum);
+    }
+}
