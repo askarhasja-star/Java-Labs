@@ -8,18 +8,25 @@ public class Example10 {
         double b = sc.nextDouble();
         char op = sc.next().charAt(0);
 
-        switch (op) {
-            case '+' -> System.out.println(a + b);
-            case '-' -> System.out.println(a - b);
-            case '*' -> System.out.println(a * b);
-            case '/' -> {
-                if (b != 0) {
-                    System.out.println(a / b);
-                } else {
-                    System.out.println("Деление на ноль невозможно");
-                }
-            }
-            default -> System.out.println("Неизвестная операция");
+       switch (op) {
+    case '+':
+        System.out.println(a + b);
+        break;
+    case '-':
+        System.out.println(a - b);
+        break;
+    case '*':
+        System.out.println(a * b);
+        break;
+    case '/':
+        if (b != 0) {
+            System.out.println(a / b);
+        } else {
+            System.out.println("Деление на ноль невозможно");
         }
+        break;
+    default:
+        System.out.println("Неизвестная операция");
+}
     }
 }
