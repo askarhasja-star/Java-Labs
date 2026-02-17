@@ -4,7 +4,7 @@ public class Task5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int num;
+        int num = 0; 
         int sum = 0;
 
         do {
@@ -12,7 +12,7 @@ public class Task5 {
 
             if (!sc.hasNextInt()) {
                 System.out.println("Ошибка: введите целое число!");
-                sc.next(); // очищаем неправильный ввод
+                sc.next();
                 continue;
             }
 
