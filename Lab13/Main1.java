@@ -27,7 +27,7 @@ public String toString() {
 
 }
 
-public class Main { public static void main(String[] args) {
+public class Main1 { public static void main(String[] args) {
 
 Scanner sc = new Scanner(System.in);
 
