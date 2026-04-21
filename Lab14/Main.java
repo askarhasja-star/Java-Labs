@@ -27,7 +27,7 @@ System.out.println("\nСумма: " + s);
         int count = 0;
         do {
             count++;
-            cNum /= 10;
+            cNum /= 1000;
         } while (cNum > 0);
         System.out.println("Количество цифр: " + count);
 
@@ -61,6 +61,7 @@ System.out.println("\nСумма: " + s);
         do {
             rev = rev * 10 + p % 10;
             p /= 10;
+            System.out.print(p + " ");
         } while (p > 0);
         System.out.println(orig == rev ? "Палиндром" : "Не палиндром");
 
